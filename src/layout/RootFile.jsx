@@ -3,7 +3,7 @@ import Home from "@/pages/UserSide/Home"
 
 function RootFile() {
   return (
-    <div>
+    <div className="">
         <Home/>
     </div>
   )
