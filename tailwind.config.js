@@ -1,4 +1,6 @@
 /** @type {import('tailwindcss').Config} */
+import tailwindcssAnimate from "tailwindcss-animate";
+
 const config = {
   darkMode: ["class"],
   content: [
@@ -23,6 +25,9 @@ const config = {
         ring: "hsl(var(--ring))",
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
+        textMain:"var(--mainText)",
+        textSec:"var(--secColor)",
+
         primary: {
           DEFAULT: "hsl(var(--primary))",
           foreground: "hsl(var(--primary-foreground))",
@@ -67,13 +72,17 @@ const config = {
           to: { height: "0" },
         },
       },
+      backgroundColor:{
+        bg: "var(--mainColor)",
+        softBg:"var(--softColor)",
+      },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
       },
     },
   },
-  plugins: [require("tailwindcss-animate")],
+  plugins: [tailwindcssAnimate,require('tailwindcss-debug-screens')],
 }
 
 export default config;
