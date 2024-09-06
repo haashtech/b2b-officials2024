@@ -95,5 +95,11 @@ h4 {
  
 } 
 .section_container{
-    @apply max-w-screen-2xl xl:px-24 md:px-20 sm:px-14 px-5 mx-auto;
+    @apply max-w-screen-2xl 2xl:px-24 xl:px-20 md:px-14 sm:px-10 px-5 mx-auto;
   }
+
+  .bg-combined-gradients {
+    background: linear-gradient(220.66deg, #F0DFFF -11.2%, #FFFFFF 100.09%),
+                linear-gradient(219.36deg, #F5D9FF 16.58%, #FFFFFF 100.08%);
+  }
+  
