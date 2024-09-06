@@ -37,9 +37,9 @@ const initialState = {
     //     state.error = action.payload.error;
     //   },
     },
-    extraReducers: {
+    // extraReducers: {
       
-    },
+    // },
   })
 
 export const { loginSuccess, logout } = userAuthSlice.actions;
