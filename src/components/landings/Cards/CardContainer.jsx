@@ -21,14 +21,15 @@ export function CardContainer({ className, title, image, description, isTrue,ind
         </div>
 
         {/* Title & Description */}
-        <div className={`space-y-2 ${isLastCard ? "text-left float-left" : ""}`}>
+        <div className={`space-y-5 ml-3 ${isLastCard ? "text-left float-left w-1/2" : " w-3/4"}`}>
              <div className="space-y-2">
           <h3 className="text-lg font-semibold text-gray-800">{title}</h3>
-          <p className="text-sm text-gray-600">{description}</p>
+          <p className=" text-gray-600 text-xs">{description}</p>
+          
         </div>
 
         {/* Arrow */}
-        <button className="w-8 h-8 bg-purple-600 text-white rounded-full flex items-center justify-center group">
+        <button className="w-7 h-7 2xl:px-10 px-8  bg-bg text-white rounded-full flex items-center justify-center group">
           <Link to='/' className='group-hover:-rotate-45 duration-500 transition-all'>&#8594;</Link>
         </button>
         </div>

@@ -4,6 +4,7 @@ import './App.css'
 import Navbar from './components/landings/navbar_Sec/Navbar'
 import { Outlet } from "react-router-dom";
 import { cn } from './lib/utils';
+import Footer from './components/landings/footer_Sec/Footer';
 function App() {
 
 
@@ -14,6 +15,7 @@ function App() {
             })}>
       <Navbar/>
         <Outlet/>
+        <Footer/>
     </div>
     </>
   )

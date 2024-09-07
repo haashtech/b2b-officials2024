@@ -1,0 +1,28 @@
+
+
+.card-flow{
+    @apply relative flex  flex-col justify-center items-center 2xl:w-60 xl:w-56 md:w-44 sm:w-32 w-full gap-10
+}
+/* .card-flow:not(:last-child)::before{
+    @apply content-[''] bg-slate-200 absolute w-full h-[3px] top-1/2 -right-full  ;
+} */
+
+.card-flow:not(:last-child)::before {
+    content: '';
+    position: absolute;
+    top: 40%;
+    left: 100%;
+    width: 80%;
+    height: 100px;
+    background-image: url('/src/assets/images/Background Images/Kickstrat_arrow.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+/* Media query to hide the image for larger screens */
+@media (max-width: 768px) {
+  .card-flow:not(:last-child)::before {
+    display: none;
+  }
+}
