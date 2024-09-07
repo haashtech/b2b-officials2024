@@ -3,6 +3,7 @@ import ErrorPage from "@/pages/ErrorPage";
 import About from "@/pages/UserSide/About";
 // import RootFile from "@/layout/RootFile";
 import Home from "@/pages/UserSide/Home";
+import Login from "@/pages/UserSide/Login";
 import { createBrowserRouter } from "react-router-dom";
 
 const rootRouter = createBrowserRouter(
@@ -20,6 +21,11 @@ const rootRouter = createBrowserRouter(
                     index:true,
                     path:"/about",
                     element: <About/>
+                },
+                {
+                    index:true,
+                    path:"/login",
+                    element: <Login/>
                 },
                 {
                     path: "*",

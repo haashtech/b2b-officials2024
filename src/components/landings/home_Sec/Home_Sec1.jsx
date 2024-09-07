@@ -15,12 +15,12 @@ function HomeSec1() {
       //   backgroundRepeat: "no-repeat",
       // }}
     >
-      <div className="flex lg:w-[40%]  w-full space-y-3 lg:-translate-y-5  lg:mt-0 sm:mt-24 mt-20 flex-col lg:justify-end justify-center lg:items-start items-center lg:h-screen h-1/2 z-20 text-container font-bold  uppercase">
+      <div className="flex lg:w-[40%]  w-full space-y-6 lg:-translate-y-5  lg:mt-0 sm:mt-24 mt-20 flex-col lg:justify-end justify-center lg:items-start items-center lg:h-screen h-1/2 z-20 text-container font-bold  uppercase">
         <div className="lg:text-start text-center ">
-          <h3>Offers a platform</h3>
-          <h3>for trade,</h3>
-          <h3>focusing on </h3>
-          <h3>Indian businesses.</h3>
+          <h2>Offers a platform</h2>
+          <h2>for trade,</h2>
+          <h2>focusing on </h2>
+          <h2>Indian businesses.</h2>
         </div>
         <div className="sm:w-1/2 w-full ">
           <p className="text-xs font-normal lg:text-start text-center capitalize">

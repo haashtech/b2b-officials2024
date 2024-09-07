@@ -102,4 +102,12 @@ h4 {
     background: linear-gradient(220.66deg, #F0DFFF -11.2%, #FFFFFF 100.09%),
                 linear-gradient(219.36deg, #F5D9FF 16.58%, #FFFFFF 100.08%);
   }
-  
+  .bg-combined-gradients2 {
+    background: rgb(171,94,239);
+    background: linear-gradient(90deg, rgba(171,94,239,1) 0%, rgba(241,225,255,1) 96%);
+  }
+
+  .bg-combined-gradients3 {
+    background: rgb(95,8,177);
+background: linear-gradient(90deg, rgba(95,8,177,1) 0%, rgba(96,136,190,1) 83%, rgba(96,154,192,1) 100%, rgba(96,198,196,1) 100%);
+  }

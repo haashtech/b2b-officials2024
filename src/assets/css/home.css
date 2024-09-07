@@ -26,3 +26,21 @@
     display: none;
   }
 }
+
+
+/* ======= about ====== */
+.hide-cnt::before{
+  @apply content-[""] w-3 h-full bg-white absolute -right-[16.5px] top-5 bottom-0 z-[9999]
+}
+
+.hide-cnt::after {
+  content: "";
+  width: 1.5rem; /* Tailwind w-10 */
+  height: 1.5rem; /* Tailwind h-10 */
+  background-color: white; /* Tailwind bg-white */
+  position: absolute;
+  right: -23px; /* Position the circle end of the indicator */
+  bottom: -20px; /* Align to the bottom */
+  border-radius: 9999px; /* Fully round */
+  z-index: 10000; /* Ensure the circle is on top */
+}
